@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1790px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../../font/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../../font/Poppins-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../../font/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../../font/Poppins-Light.ttf);
+  font-weight: 300;
+}
+.header {
+  width: 500px;
+  height: 500px;
+  background-image: url(../../img/header.png);
+}/*# sourceMappingURL=main.css.map */
